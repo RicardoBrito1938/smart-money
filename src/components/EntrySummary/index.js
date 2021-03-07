@@ -5,18 +5,18 @@ import EntrySummaryChart from './EntrySummaryChart';
 import EntrySummaryList from './EntrySummaryList';
 
 const styles = StyleSheet.create({
-    container: {
-        // flex: 1,
-    },
+  container: {
+    // flex: 1,
+  },
 });
 
 const EntrySummary = () => {
-    return (
-        <View style={styles.container}>
-            <EntrySummaryChart />
-            <EntrySummaryList />
-        </View>
-    );
+  return (
+    <View style={styles.container}>
+      <EntrySummaryChart />
+      <EntrySummaryList />
+    </View>
+  );
 };
 
 export default EntrySummary;

@@ -4,7 +4,7 @@ import {StyleSheet, Text, View} from 'react-native';
 const styles = StyleSheet.create({});
 
 const BalancePanelChart = () => {
-    return <View />;
+  return <View />;
 };
 
 export default BalancePanelChart;
